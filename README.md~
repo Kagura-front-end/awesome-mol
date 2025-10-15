@@ -16,7 +16,7 @@ bridging the gap between low-level libraries and rigid enterprise platforms.
 
 The diagram below shows how $mol relates to other solution levels in the ecosystem:
 
-![Solution levels comparison for $mam, $mol and $hyoo]()
+![Solution levels comparison for $mam, $mol and $hyoo](./images/8msv0gofei6gqhsdqgkdry5cvmk.png)
 *Levels of abstraction and ecosystem maturity in the $hyoo stack.*
 
 ## Contents
@@ -46,3 +46,7 @@ The diagram below shows how $mol relates to other solution levels in the ecosyst
 
 ## UI Components
 - **$mol_button** — [repo](https://github.com/hyoo-ru/mam_mol_button) — Reactive button component.
+
+### 
+### Guides & Tutorials
+- **“Introduction to $mol — Part 1: Module System (MAM)”** — Deep dive into MAM: conventions over config, verless versioning, build outputs, cross-language modules, dev server workflow. *(Habr, 35 min, RU, 2022)* — covers granular modules, FQN naming, auto imports/exports, bundling for web/node, and repo fractals (mono/poly). [Read on Habr](https://habr.com/ru/articles/662680/)
