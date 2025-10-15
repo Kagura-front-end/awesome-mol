@@ -26,4 +26,15 @@ built for maximum speed, simplicity, and flexibility.
 - [Misc](#misc)
 - [Contributing](#contributing)
 - [License](#license)
-- 
+
+## Official
+- **Website** — [mol.hyoo.ru](https://mol.hyoo.ru) — Official homepage with docs and live demos.
+- **Docs** — [mol.hyoo.ru/#!section=docs](https://mol.hyoo.ru/#!section=docs) — API reference and concepts.
+- **GitHub org** — [hyoo-ru](https://github.com/hyoo-ru) — Main repositories and packages.
+
+## Core Libraries
+- **$mol_atom** — [repo](https://github.com/hyoo-ru/mam_mol_atom) — Reactive primitives (atoms, caching, reactivity).
+- **$mol_view** — [repo](https://github.com/hyoo-ru/mam_mol_view) — Declarative UI layer.
+
+## UI Components
+- **$mol_button** — [repo](https://github.com/hyoo-ru/mam_mol_button) — Reactive button component.
