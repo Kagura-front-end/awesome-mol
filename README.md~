@@ -47,6 +47,15 @@ The diagram below shows how $mol relates to other solution levels in the ecosyst
 ## UI Components
 - **$mol_button** — [repo](https://github.com/hyoo-ru/mam_mol_button) — Reactive button component.
 
-### 
 ### Guides & Tutorials
 - **“Introduction to $mol — Part 1: Module System (MAM)”** — Deep dive into MAM: conventions over config, verless versioning, build outputs, cross-language modules, dev server workflow. *(Habr, 35 min, RU, 2022)* — covers granular modules, FQN naming, auto imports/exports, bundling for web/node, and repo fractals (mono/poly). [Read on Habr](https://habr.com/ru/articles/662680/)
+
+### $mol / MAM key concepts (TL;DR)
+- **Modules-first**: each feature is a module (dir) with multi-language sources.
+- **FQN naming**: `$ns_feature_subfeature` makes globals unique & discoverable.
+- **Conventions > config**: no per-project config; uniform module layout.
+- **Auto deps**: compiler resolves deps by FQN usage; minimal bundles.
+- **Verless versioning**: breaking changes → new names; smooth coexistence.
+- **Dual targets**: `.web.ts`/`.node.ts` → separate web/node bundles + tests.
+- **Dev ergonomics**: live rebuild, deterministic bundle order, cyclic-dep strategy.
+

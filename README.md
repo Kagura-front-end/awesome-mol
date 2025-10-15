@@ -41,11 +41,16 @@ The diagram below shows how $mol relates to other solution levels in the ecosyst
 - **GitHub org** — [hyoo-ru](https://github.com/hyoo-ru) — Main repositories and packages.
 
 ## Core Libraries
-- **$mol_atom** — [repo](https://github.com/hyoo-ru/mam_mol_atom) — Reactive primitives (atoms, caching, reactivity).
-- **$mol_view** — [repo](https://github.com/hyoo-ru/mam_mol_view) — Declarative UI layer.
+
+- **[$mol_atom](https://github.com/hyoo-ru/mam_mol/tree/master/mol/atom)** — Reactive primitives (atoms, dependency tracking, caching, reactivity).
+- **[$mol_view](https://github.com/hyoo-ru/mam_mol/tree/master/mol/view)** — Declarative UI layer that renders automatically via reactivity.
 
 ## UI Components
-- **$mol_button** — [repo](https://github.com/hyoo-ru/mam_mol_button) — Reactive button component.
+
+- **[$mol_button](https://github.com/hyoo-ru/mam_mol/tree/master/mol/button)** — Reactive button component.
+- **[$mol_check](https://github.com/hyoo-ru/mam_mol/tree/master/mol/check)** — Checkbox and toggle components.
+- **[$mol_form](https://github.com/hyoo-ru/mam_mol/tree/master/mol/form)** — Reactive form framework.
+
 
 ### Guides & Tutorials
 - **“Introduction to $mol — Part 1: Module System (MAM)”** — Deep dive into MAM: conventions over config, verless versioning, build outputs, cross-language modules, dev server workflow. *(Habr, 35 min, RU, 2022)* — covers granular modules, FQN naming, auto imports/exports, bundling for web/node, and repo fractals (mono/poly). [Read on Habr](https://habr.com/ru/articles/662680/)
